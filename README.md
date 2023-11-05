@@ -1,8 +1,8 @@
 <h1 align="center">AI Copilot (Bing AI)</h1>
 
-## Original project: https://github.com/chokiproai/AI-Copilot
+## Original project: https://github.com/niansuh/AI-Copilot
 
-## [Deploy on Hugging Face](https://huggingface.co/login?next=%2Fspaces%2Fngoctuanai%2Fgpt4en%3Fduplicate%3Dtrue)
+## [Deploy on Hugging Face](https://huggingface.co/login?next=%2Fspaces%2Fniansuh%2Fbingai%3Fduplicate%3Dtrue)
 
 ## introduce
 - ⭐ Based on Microsoft New Bing, a Microsoft New Bing website custom built using Vue3 and Go. It provides a consistent user interface experience, supports ChatGPT prompts, and is essentially compatible with all features of Microsoft Bing AI. You don't need to log in to chat.
@@ -23,9 +23,9 @@
 
 ## Association
 
->⭐[Chat AI](https://ngoctuanai-gpt4.hf.space)
+>⭐[Chat AI](https://ngoctuanai-bingai.hf.space)
 
->⭐[Image Creator](https://ngoctuanai-gpt4.hf.space/create)
+>⭐[Image Creator](https://ngoctuanai-bingai.hf.space/create)
 
 ## Video
 
