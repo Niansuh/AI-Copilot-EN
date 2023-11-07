@@ -587,7 +587,7 @@ _w['_sydConvTranslation'] = {
   exploreMore: '浏览更多',
   metaInternalSearchQuery: '正在搜索: `{0}`',
   metaInternalLoaderMessage: '正在为你生成答案...',
-  metaInternalImageLoaderMessage: '分析图像: 隐私模糊会隐藏必应聊天中的人脸',
+  metaInternalImageLoaderMessage: 'Analyzing Image: Privacy Blur Hides Faces in Bing Chat',
   compliantMetaInternalLoaderMessage: '从 {0} 生成安全答案',
   messageSharedContent: '共享内容',
   clickToView: '单击以查看',
