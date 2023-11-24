@@ -23,9 +23,9 @@
 
 ## Association
 
->⭐[Chat AI](https://ngoctuanai-bingai.hf.space)
+>⭐[Chat AI](https://niansuh-bingai.hf.space)
 
->⭐[Image Creator](https://ngoctuanai-bingai.hf.space/create)
+>⭐[Image Creator](https://niansuh-bingai.hf.space/create)
 
 ## Video
 
