@@ -533,7 +533,7 @@ _w['_sydConvTranslation'] = {
    welcomeContainerUseTerms: 'Terms',
    welcomeContainerLearnMore: 'Learn more',
   welcomeMessageItemContent1:  'What can I cook for my picky kid who only eats orange food?',
-  welcomeMessageItemContent2:  'What are the pros and cons of  the top 3 best-selling pet vacuums?',
+  welcomeMessageItemContent2:  'What are the pros and cons of the top 3 best-selling pet vacuum cleaners?',
   welcomeMessageItemContent3: '"Write a haiku about crocodiles in outer space in the voice of a pirate"',
   welcomeMessageItemTitle1:  'Ask a complex question🧐',
   welcomeMessageItemTitle2:  'Get a better answer🙌', 
