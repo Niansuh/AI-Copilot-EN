@@ -534,7 +534,7 @@ _w['_sydConvTranslation'] = {
    welcomeContainerLearnMore: 'Learn more',
   welcomeMessageItemContent1:  'What can I cook for my picky kid who only eats orange food?',
   welcomeMessageItemContent2:  'What are the pros and cons of the top 3 best-selling pet vacuum cleaners?',
-  welcomeMessageItemContent3: '"Write a haiku about crocodiles in outer space in the voice of a pirate"',
+  welcomeMessageItemContent3: 'Write a haiku about crocodiles in outer space in the voice of a pirate',
   welcomeMessageItemTitle1:  'Ask a complex question🧐',
   welcomeMessageItemTitle2:  'Get a better answer🙌', 
   welcomeMessageItemTitle3:  'Get creative inspiration🎨',
@@ -1118,6 +1118,6 @@ if (UserStoreGet('enterpriseEnable')) {
   _w['_sydConvConfig']['enableMessagePrivacy'] = true
   _w['_sydConvConfig']['PLoadIID'] = 'SERP.5833'
   _w['_sydConvTranslation']['warmWelcomeTitle'] = 'Bing Chat Enterprise'
-  _w['_sydConvTranslation']['welcomeSubtitleText'] = 'Copilot for the web, powered by AI'
+  _w['_sydConvTranslation']['welcomeSubtitleText'] = 'Copilot for the web, powered by Niansuh AI'
   _w['_sydConvTranslation']['inputRaiLabel'] = 'Your personal and company data are protected in this chat'
 }
