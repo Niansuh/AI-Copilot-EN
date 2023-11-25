@@ -534,7 +534,7 @@ _w['_sydConvTranslation'] = {
    welcomeContainerLearnMore: 'Learn more',
   welcomeMessageItemContent1:  'What can I cook for my picky kid who only eats orange food?',
   welcomeMessageItemContent2:  'What are the pros and cons of  the top 3 best-selling pet vacuums?',
-  welcomeMessageItemContent3: 'Простовання п',
+  welcomeMessageItemContent3: '"Write a haiku about crocodiles in outer space in the voice of a pirate"',
   welcomeMessageItemTitle1:  'Ask a complex question🧐',
   welcomeMessageItemTitle2:  'Get a better answer🙌', 
   welcomeMessageItemTitle3:  'Get creative inspiration🎨',
@@ -1118,6 +1118,6 @@ if (UserStoreGet('enterpriseEnable')) {
   _w['_sydConvConfig']['enableMessagePrivacy'] = true
   _w['_sydConvConfig']['PLoadIID'] = 'SERP.5833'
   _w['_sydConvTranslation']['warmWelcomeTitle'] = 'Bing Chat Enterprise'
-  _w['_sydConvTranslation']['welcomeSubtitleText'] = '由 AI 支持的适用于 Web 的 Copilot'
-  _w['_sydConvTranslation']['inputRaiLabel'] = '你的个人和公司数据在此聊天中受到保护'
+  _w['_sydConvTranslation']['welcomeSubtitleText'] = 'Copilot for the web, powered by AI'
+  _w['_sydConvTranslation']['inputRaiLabel'] = 'Your personal and company data are protected in this chat'
 }
