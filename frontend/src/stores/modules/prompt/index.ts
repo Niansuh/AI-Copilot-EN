@@ -25,13 +25,13 @@ export const usePromptStore = defineStore(
     const promptDownloadConfig = ref<Array<IPromptDownloadConfig>>([
       {
         type: 1,
-        name: 'ChatGPT 中文调教指南 - 简体',
+        name: 'ChatGPT Chinese Training Guide - Simplified',
         url: './data/prompts/prompts-zh.json',
         refer: 'https://github.com/PlexPt/awesome-chatgpt-prompts-zh',
       },
       {
         type: 1,
-        name: 'ChatGPT 中文调教指南 - 繁体',
+        name: 'ChatGPT Chinese Training Guide - Simplified',
         url: './data/prompts/prompts-zh-TW.json',
         refer: 'https://github.com/PlexPt/awesome-chatgpt-prompts-zh',
       },
@@ -57,7 +57,7 @@ export const usePromptStore = defineStore(
     const optPromptConfig = ref<{
       isShow: boolean;
       type?: 'add' | 'edit';
-      title?: '添加提示词' | '编辑提示词';
+      title?: 'Add prompt word' | 'Edit wording';
       tmpPrompt?: IPrompt;
       newPrompt: IPrompt;
     }>({
@@ -97,7 +97,7 @@ export const usePromptStore = defineStore(
       } else {
         return {
           result: false,
-          msg: '提示词格式有误',
+          msg: 'Prompt word format is wrong',
         };
       }
     }
