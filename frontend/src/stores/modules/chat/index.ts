@@ -25,7 +25,7 @@ export const useChatStore = defineStore(
     const sydneyConfigs = ref<SydneyConfig[]>([
       {
         baseUrl: 'https://sydney.bing.com',
-        label: 'Bing 官方',
+        label: 'Bing Official',
       },
       {
         baseUrl: 'https://sydney.vcanbb.chat',
@@ -33,11 +33,11 @@ export const useChatStore = defineStore(
       },
       {
         baseUrl: location.origin,
-        label: '本站',
+        label: 'This site',
       },
       {
         baseUrl: '',
-        label: '自定义',
+        label: 'Customize',
         isCus: true,
       },
     ]);
@@ -47,7 +47,7 @@ export const useChatStore = defineStore(
       if (!config.baseUrl) {
         return {
           isUsable: false,
-          errorMsg: '链接不可为空',
+          errorMsg: 'Link cannot be empty',
         };
       }
       try {
@@ -63,9 +63,9 @@ export const useChatStore = defineStore(
           };
           ws.onerror = () => {
             clearTimeout(wsTimer);
-            reject(new Error(`聊天服务器 ${config.baseUrl} 连接失败`));
+            reject(new Error(`Chat Server ${config.baseUrl} Connection failed`));
           };
-          ws.onclose = () => reject(new Error(`聊天服务器 ${config.baseUrl} 连接超时`));
+          ws.onclose = () => reject(new Error(`Chat Server ${config.baseUrl} Connection timed out`));
         });
         return {
           isUsable: true,
