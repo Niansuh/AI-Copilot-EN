@@ -55,7 +55,7 @@ export const useUserStore = defineStore(
       if (historyEnable.value && !enterpriseEnable.value) {
         CIB.vm.sidePanel.isVisibleDesktop = true;
         document.querySelector('cib-serp')?.setAttribute('alignment', 'left');
-        // 设置历史记录侧边栏的高度为 90vh
+        // Set the height of the history sidebar to 90vh
         document.querySelector('cib-serp')?.shadowRoot?.querySelector('cib-side-panel')?.shadowRoot?.querySelector('div.scroller')?.setAttribute('style', 'height: 90vh');
       } else {
         CIB.vm.sidePanel.isVisibleDesktop = false;
@@ -63,7 +63,7 @@ export const useUserStore = defineStore(
       }
       const token = getUserToken();
       if (!token) {
-        // 未登录不显示历史记录
+        // History will not be displayed if you are not logged in
         CIB.config.features.enableGetChats = false;
         CIB.vm.sidePanel.isVisibleMobile = false;
         CIB.vm.sidePanel.isVisibleDesktop = false;
